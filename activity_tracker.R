@@ -3,7 +3,7 @@ library(readxl)
 library(tidyverse)
 
 # Load data from Excel
-file_path <- "activity_data_r.xlsx" # Replace with your file path
+file_path <- "file.xlsx" # Replace with your file path
 data <- read_excel(file_path)
 
 # Summary statistics
